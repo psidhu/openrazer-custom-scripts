@@ -1,0 +1,4 @@
+#+TITLE: openrazer-custom-scripts
+
+The intention of this project is to store any custom scripts I write
+to control my razer stuff through openrazer.
