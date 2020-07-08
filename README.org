@@ -2,3 +2,18 @@
 
 The intention of this project is to store any custom scripts I write
 to control my razer stuff through openrazer.
+
+* snek.py
+  So this is a fun one. I wrote an automated snake program to run over
+  my keyboards' keys. The game plays out as normal, using dumb
+  movements to move the snake (named snek) around.
+
+  Currently it's designed for a standard TKL (e.g. Huntsman TE) as I
+  limit where the snek game plays out. May attempt to make this
+  smarter in the future, but it's where I like it for now.
+
+  To run in the background, open a new terminal and:
+  #+BEGIN_SRC sh
+  python3 ./snek.py &
+  disown -a && exit
+  #+END_SRC
